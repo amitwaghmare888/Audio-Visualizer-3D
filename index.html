@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+        <h1>Sonic Circle</h1>
+        <p>Upload an audio file to visualize frequencies</p>
+        
+        <div class="upload-btn-wrapper">
+            <button class="btn">Upload MP3</button>
+            <input type="file" id="fileupload" accept="audio/*" />
+        </div>
+    </div>
+
+    <audio id="audio" controls></audio>
+    <canvas id="canvas1"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
